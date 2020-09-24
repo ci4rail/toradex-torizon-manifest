@@ -7,7 +7,8 @@
   <remote fetch="https://github.com/toradex" name="toradex-torizon"/>
   <remote fetch="https://github.com/foundriesio" name="foundriesio"/>
   <remote fetch="https://git.yoctoproject.org/git/" name="yocto"/>
-
+  <remote fetch="https://github.com/ci4rail" name="ci4rail"/>
+  
   <project name="bitbake" remote="oe" revision="fd279f857c98d492f43cc62d9ebae18ce6412b6e"/>
   <project name="openembedded-core" path="layers/openembedded-core" remote="oe" revision="f5b90eeed7366432b39c7cd8c6ee8c23e2d4abe8"/>
   <project name="meta-freescale" path="layers/meta-freescale" remote="fsl" revision="f535ddcd5cd3da846a34b1721ceda3c8b18b37a0"/>
@@ -22,6 +23,8 @@
   <project name="meta-toradex-bsp-common.git" path="layers/meta-toradex-bsp-common" remote="toradex-bsp" revision="cab8a53004f5431f7f36443a2d6ec14bd869f476"/>
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="toradex-bsp" revision="276c966a04bbe4d19866becb3b8fc147d1079049"/>
   <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="toradex-torizon" revision="d31e11e0baf70f37b1cce36e82dfd89b079ee649">
+  <project name="meta-ci.os" path="layers/meta-ci.os" remote="ci4rail" revision="latest">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
+  </project>
   </project>
 </manifest>
